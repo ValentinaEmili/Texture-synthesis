@@ -2,7 +2,7 @@
 
 This project explores unconditional texture synthesis using a two-stage generative pipeline.
 
-In the first stage, a discrete latent representation is learned from texture images using vector quantization. Three first-stage architectures are compared:
+In the first stage, a discrete latent representation is learned from texture images using vector quantization. Three first-stage architectures are compared: 
 
 - **VQ-VAE**
 - **Custom VQGAN**
@@ -11,6 +11,8 @@ In the first stage, a discrete latent representation is learned from texture ima
 In the second stage, a GPT-like autoregressive Transformer is trained on the resulting sequences of discrete latent codes. At inference time, the Transformer generates new code sequences starting from a BOS token, which are then decoded into texture images.
 
 The goal of the project is to investigate how different discrete representations affect both latent-space modeling and final texture generation.
+
+Link to the generated images: https://drive.google.com/drive/folders/1GxtyJPWyqteYqSWQCpBKHnUdG1ZhdXlr?usp=sharing
 
 ## Project structure
 
@@ -30,7 +32,3 @@ Texture-synthesis/
 └── samples/
     ├── vqvae/
     └── vqgan/
-
-
-
-Link to the generated images: https://drive.google.com/drive/folders/1GxtyJPWyqteYqSWQCpBKHnUdG1ZhdXlr?usp=sharing
