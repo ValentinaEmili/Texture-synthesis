@@ -30,3 +30,7 @@ Texture-synthesis/
 └── samples/
     ├── vqvae/
     └── vqgan/
+
+
+
+Link to the generated images: https://drive.google.com/drive/folders/1GxtyJPWyqteYqSWQCpBKHnUdG1ZhdXlr?usp=sharing
