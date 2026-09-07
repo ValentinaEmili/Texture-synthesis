@@ -12,8 +12,6 @@ In the second stage, a GPT-like autoregressive Transformer is trained on the res
 
 The goal of the project is to investigate how different discrete representations affect both latent-space modeling and final texture generation.
 
-Link to the generated images: https://drive.google.com/drive/folders/1GxtyJPWyqteYqSWQCpBKHnUdG1ZhdXlr?usp=sharing
-
 ## Project structure
 ```text
 Texture-synthesis/
@@ -54,3 +52,5 @@ Generated codebook indices
      ▼
 Generated texture
 ```
+Dataset: https://www.robots.ox.ac.uk/~vgg/data/dtd/
+Generated images: https://drive.google.com/drive/folders/1GxtyJPWyqteYqSWQCpBKHnUdG1ZhdXlr?usp=sharing
