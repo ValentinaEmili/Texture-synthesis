@@ -35,7 +35,7 @@ Texture-synthesis/
 Texture image
      │
      ▼
- VQ-VAE / VQGAN
+ VQ-VAE / VQGAN 
      │
      ▼
 Discrete codebook indices
@@ -53,4 +53,5 @@ Generated codebook indices
 Generated texture
 ```
 Dataset: https://www.robots.ox.ac.uk/~vgg/data/dtd/
+
 Generated images: https://drive.google.com/drive/folders/1GxtyJPWyqteYqSWQCpBKHnUdG1ZhdXlr?usp=sharing
