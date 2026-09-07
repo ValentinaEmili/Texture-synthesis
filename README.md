@@ -15,6 +15,7 @@ The goal of the project is to investigate how different discrete representations
 Link to the generated images: https://drive.google.com/drive/folders/1GxtyJPWyqteYqSWQCpBKHnUdG1ZhdXlr?usp=sharing
 
 ## Project structure
+```text
 Texture-synthesis/
 │
 ├── codebook/
@@ -30,4 +31,24 @@ Texture-synthesis/
 └── samples/
     ├── vqvae/
     └── vqgan/
+```
 ## Method
+Texture image
+     │
+     ▼
+ VQ-VAE / VQGAN
+     │
+     ▼
+Discrete codebook indices
+     │
+     ▼
+Autoregressive Transformer
+     │
+     ▼
+Generated codebook indices
+     │
+     ▼
+ VQ-VAE / VQGAN decoder
+     │
+     ▼
+Generated texture
