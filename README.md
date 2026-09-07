@@ -33,6 +33,7 @@ Texture-synthesis/
     └── vqgan/
 ```
 ## Method
+```text
 Texture image
      │
      ▼
@@ -52,3 +53,4 @@ Generated codebook indices
      │
      ▼
 Generated texture
+```
